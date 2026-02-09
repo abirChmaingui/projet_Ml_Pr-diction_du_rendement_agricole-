@@ -1,0 +1,32 @@
+:root {
+  --bg: #0f1412;
+  --surface: #1a231e;
+  --surface-hover: #232d27;
+  --green-deep: #2d5a27;
+  --green-mid: #4a7c43;
+  --green-light: #8bc34a;
+  --green-pale: #c8e6c9;
+  --earth: #a1886f;
+  --text: #e8ebe9;
+  --text-muted: #8a9a92;
+  --border: #2d3d35;
+  --radius: 12px;
+  --font: 'DM Sans', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
